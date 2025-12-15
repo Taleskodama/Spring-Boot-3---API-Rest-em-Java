@@ -1,7 +1,6 @@
 package med.vol.api.controller;
 
 import jakarta.validation.Valid;
-import med.vol.api.endereco.Endereco;
 import med.vol.api.medico.DadosCadastroMedico;
 import med.vol.api.medico.Medico;
 import med.vol.api.medico.MedicoRepository;
