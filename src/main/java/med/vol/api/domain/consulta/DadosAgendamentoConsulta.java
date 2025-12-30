@@ -1,0 +1,9 @@
+package med.vol.api.domain.consulta;
+
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.NotNull;
+
+import java.time.LocalDateTime;
+
+public record DadosAgendamentoConsulta(
+    Long idMedico, @NotNull long idPaciente, @NotNull @Future LocalDateTime data) {}
